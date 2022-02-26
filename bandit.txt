@@ -119,73 +119,19 @@ echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | openssl s_client -connect localhost:31
 awk '/^$/{flag=0} flag; /Correct!/{flag=1}' /tmp/catow/solution.key > /tmp/catow/cred.key
 chmod 600 /tmp/catow/cred.key
 ssh -i /tmp/catow/cred.key bandit17@localhost
+cat /etc/bandit_pass/bandit17
 ------------------------------
 bandit17->18
-ssh -i /tmp/catow/cred.key bandit17@localhost
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+password: xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
 diff passwords.old passwords.new
 ------------------------------
 bandit18->19
-ssh bandit18@localhost cat readme
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
 password: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 ------------------------------
 bandit19->20
 ssh bandit19@bandit.labs.overthewire.org -p 2220
 password: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 
-------------------------------
-bandit20->21
-ssh bandit20@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit21->22
-ssh bandit21@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit22->23
-ssh bandit22@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit23->24
-ssh bandit23@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit24->25
-ssh bandit24@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit25->26
-ssh bandit25@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit26->27
-ssh bandit26@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit27->28
-ssh bandit27@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit28->29
-ssh bandit28@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit29->30
-ssh bandit29@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit30->31
-ssh bandit30@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit31->32
-ssh bandit31@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit32->33
-ssh bandit32@bandit.labs.overthewire.org -p 2220
-password: 
-------------------------------
-bandit33->34
-ssh bandit33@bandit.labs.overthewire.org -p 2220
-password: 
 ------------------------------
