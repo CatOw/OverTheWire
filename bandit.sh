@@ -107,14 +107,20 @@ echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l localhost -p 3000 &
 
 # level 21 -> 22
 password is gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
-
+ls /etc/cron.d/
+cat /etc/cron.d/cronjob_bandit22
+cat /usr/bin/cronjob_bandit22.ssh
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 
 # level 22 -> 23
-password is 
-
+password is Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+ls /etc/cron.d/
+cat /etc/cron.d/cronjob_bandit23
+cat /usr/bin/cronjob_bandit23.sh
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1 | sed -e "s/^/\/tmp\//" | xargs cat
 
 # level 23 -> 24
-password is 
+password is jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 
 
 # level 24 -> 25
